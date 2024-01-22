@@ -1,0 +1,80 @@
+.d-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+
+    user-select: none;
+}
+
+.lab-ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-display-box {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.profile-photo-thumb {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.profile-photo-thumb img{
+    width: fit-content;
+    height: fit-content;
+}
+
+.toggle-content {
+    position: absolute;
+    width: 250%;
+    padding: 1rem 0;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 4px 2px lightgray;
+    top: 2.5rem;
+    right: .2rem;
+    border-radius: 10px;
+    display: none;
+    background: white;
+   
+}
+
+.toggle-content.active {
+    display: block;
+}
+
+.toggle-list-option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .6rem;
+    color: gray;
+  
+   
+}
+
+.toggle-list-option li {
+    padding: 0 1rem;
+}
+
+.toggle-list-option li a {
+    color: gray;
+}
+
+.order {
+    padding-top: 2rem;
+    border-top: 1px solid lightgray;
+}
+
